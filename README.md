@@ -1,8 +1,6 @@
 # SoundClipBackmasking
 
 Hafsa Alaparmak
-CS3345.503
-haa200005
 04/29/2023
 
 -ArrayStack-
@@ -48,8 +46,8 @@ StackIterator class has a function called next()
 -next returns the next element in the stack and advances the iterator to the next position and it only accesses element at current index, so O(1)
 -constructor and hasNext also has O(1)
 so total: O(1) time
-
-according to my program and comparisons of time complexities, LinkedStack seems more efficient with time.
+A
+ccording to my program and comparisons of time complexities, LinkedStack seems more efficient with time.
 
 
 -How to convert the sound files-
