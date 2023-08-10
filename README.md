@@ -1,8 +1,33 @@
 # SoundClipBackmasking
-
 Hafsa Alaparmak
 04/29/2023
 
+# Table of Contents
+1. Introduction
+2. Project Overview
+4. Converting Media Files
+5. Implementation Details
+
+# Introduction
+This project aims to explore the implementation of Stack Abstract Data Types (ADTs) using both array and linked list structures. The primary objective is to create a program that performs sound clip reversal, inspired by the concept of backmasking used in the music and film industry. Backmasking involves playing audio tracks backward to reveal hidden messages.
+
+The project entails the development of a program that reads a sound file in .dat format, and subsequently generates another .dat sound file containing the reversed version of the input file. 
+
+# Project Overview
+The project involves the implementation of two variations of the Stack ADT:
+ArrayStack: This implementation employs an array-based approach to the BackMasking interface.
+ListStack: This implementation utilizes a Linked List structure for the BackMasking interface, also implementing the Iterable interface. It utilizes the enhanced for-loop to count the elements in the stack.
+
+# Converting Media Files
+To facilitate running the program, media files (.wav) need to be converted to the .dat format. 
+1. First download homebrew
+2. Make sure sox is installed inside
+3. cd to pathway (cd Desktop)
+4. sox ciphered.wav ciphered.dat to turn .wav files to .dat files
+5. after running the code and getting the reversed files, used sox ciphered.dat cipheredReverse.wav to get the sound files
+
+
+# Implementation Details
 -ArrayStack-
 if the first argument as the type of stack is array, this program will run
 ArrayStack class uses an array to implement the stack
@@ -46,13 +71,4 @@ StackIterator class has a function called next()
 -next returns the next element in the stack and advances the iterator to the next position and it only accesses element at current index, so O(1)
 -constructor and hasNext also has O(1)
 so total: O(1) time
-A
-ccording to my program and comparisons of time complexities, LinkedStack seems more efficient with time.
-
-
--How to convert the sound files-
-1. First download homebrew
-2. Make sure sox is installed inside
-3. cd to pathway (cd Desktop)
-4. sox ciphered.wav ciphered.dat to turn .wav files to .dat files
-5. after running the code and getting the reversed files, used sox ciphered.dat cipheredReverse.wav to get the sound files
+According to my program and comparisons of time complexities, LinkedStack seems more efficient with time.
