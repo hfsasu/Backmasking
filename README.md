@@ -34,26 +34,26 @@ After running the code and getting the reversed files: sox ciphered.dat ciphered
 
 # Implementation Details
 
-ArrayStack
+### ArrayStack
 When the first argument specifies the stack type as "array," the program will execute the ArrayStack class.
 ArrayStack uses an array to store stack elements.
+
 Key functions and operations:
 push(): Adds an item to the top of the stack.
 pop(): Removes the top item from the stack.
 peek(): Retrieves the top item without removing it.
 count(): Returns the number of items in the stack.
 isEmpty(): Checks if the stack is empty.
-
 configuration: array ciphered.dat cipheredReverseArray.dat
 
-Time
+### Time:
 push, peek, and isEmpty only work on the top of the stack, they take O(1)
 count is only counting the number of elements so it take O(1)
 resize creates a new array with doubling size, and copies all existing elements to the new array using a for loop so O(n)
 so total: 0(n) time
 
 
-LinkedStack
+### LinkedStack
 When the first argument specifies the stack type as "list," the program will execute the LinkedStack class.
 LinkedStack uses a linked list to store stack elements.
 Key functions and operations (similar to ArrayStack):
@@ -62,7 +62,7 @@ LinkedStack also implements the Iterable interface for efficient iteration throu
 The time complexity for key operations remains O(1).
 Based on time complexity comparisons, LinkedStack appears to be more efficient.
 
-Time
+### Time:
 push, pop, peek, and isEmpty only work on the top of the stack, they take O(1)
 count is only counting the number of elements, so it take O(1)
 iterator method is also O(1), since it only return a new StackIterator object
