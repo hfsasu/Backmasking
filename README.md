@@ -16,7 +16,9 @@ The project involves developing a program that reads sound files in .dat format 
 
 # Project Overview
 The project encompasses two implementations of the Stack ADT:
+
 ArrayStack: This implementation employs an array-based approach to the BackMasking interface.
+
 LinkedStack: This implementation utilizes a Linked List structure for the BackMasking interface, also implementing the Iterable interface. The enhanced for-loop is utilized to count elements in the stack.
 
 
