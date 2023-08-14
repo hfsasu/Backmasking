@@ -27,7 +27,7 @@ To facilitate program execution, the media files (.wav) need to be converted to 
 Download Homebrew (if not installed).
 Make sure SOX is installed.
 Navigate to the directory containing the media files (e.g., cd Desktop).
-Run the following commands:
+Run the example command:
 To convert .wav to .dat: sox ciphered.wav ciphered.dat
 After running the code and getting the reversed files: sox ciphered.dat cipheredReverse.wav
 
